@@ -21,3 +21,19 @@ Given the name of the text file which contains the log information. print the ho
 The input file is uploaded in the GIT which is named as hosts_access_log_00.txt
 The output file in the git is named as record_hosts_access_log_00.txt
 
+Question 4:
+This problem was asked by Google.
+Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
+For example, given the following Node class
+
+class Node:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+The following test should pass:
+
+node = Node('root', Node('left', Node('left.left')), Node('right'))
+assert deserialize(serialize(node)).left.left.val == 'left.left'
+
+(Saw the solution and then coded)
