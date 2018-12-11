@@ -14,3 +14,10 @@ Given an array of integers, return a new array such that each element at index i
 For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24]. If our input was [3, 2, 1], the expected output would be [2, 3, 6].
 Follow-up: what if you can't use division?
 (Time took to solve: 10 mins, did i google any syntax: no) 
+
+Question 3 :
+This question was asked in Twilio first coding round.
+Given the name of the text file which contains the log information. print the host name and occurances of the hosts in a new text file which is named as "record_"+filename.
+The input file is uploaded in the GIT which is named as hosts_access_log_00.txt
+The output file in the git is named as record_hosts_access_log_00.txt
+
