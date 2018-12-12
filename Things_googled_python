@@ -1,1 +1,2 @@
-
+ord() -> get the ascii value of a character
+chr() -> convert the ascii value to character vale 
