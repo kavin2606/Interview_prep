@@ -48,4 +48,11 @@ assert deserialize(serialize(node)).left.left.val == 'left.left'
 
 
 ------------------------------------------------------------------------------------------------------------------------------
+question 5:
+Longest Palindromic substring
+Write a function that given a string returns the longest palindromic substring.
+(string[i:j] returns substring from index i to j-1)
+
+
+------------------------------------------------------------------------------------------------------------------------------
 
