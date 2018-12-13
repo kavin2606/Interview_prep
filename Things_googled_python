@@ -1,2 +1,5 @@
 ord() -> get the ascii value of a character
 chr() -> convert the ascii value to character vale 
+len() -> gets the size of the string
+reversed() -> to loop backwards in for loop
+string[i:j] -> returns string from i till j-1 and not j
