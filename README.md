@@ -55,4 +55,11 @@ Write a function that given a string returns the longest palindromic substring.
 
 
 ------------------------------------------------------------------------------------------------------------------------------
+question 6:
+Longest Substring Without Duplication
+Write a function that given a string returns the Longest Substring Without Duplication.
+(dictionary initialization)
+
+
+------------------------------------------------------------------------------------------------------------------------------
 
