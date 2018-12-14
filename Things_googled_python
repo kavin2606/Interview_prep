@@ -6,3 +6,4 @@ string[i:j] -> returns string from i till j-1 and not j
 a={} -> initializing the dictionary
 a[ch]=1 -> add/update elements to a dictionary
 if(ch in a) -> returns true if element is in dictionary and viceversa
+string[3:],string[3:]-> returns the first three and last three values of a string
