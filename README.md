@@ -17,7 +17,6 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120
 Follow-up: what if you can't use division?
 (Time took to solve: 10 mins, did i google any syntax: no) 
 
-
 ------------------------------------------------------------------------------------------------------------------------------
 
 Question 3 :
@@ -25,7 +24,6 @@ This question was asked in Twilio first coding round.
 Given the name of the text file which contains the log information. print the host name and occurances of the hosts in a new text file which is named as "record_"+filename.
 The input file is uploaded in the GIT which is named as hosts_access_log_00.txt
 The output file in the git is named as record_hosts_access_log_00.txt
-
 
 ------------------------------------------------------------------------------------------------------------------------------
 
@@ -46,13 +44,11 @@ assert deserialize(serialize(node)).left.left.val == 'left.left'
 
 (Saw the solution and then coded)
 
-
 ------------------------------------------------------------------------------------------------------------------------------
 question 5:
 Longest Palindromic substring
 Write a function that given a string returns the longest palindromic substring.
 (string[i:j] returns substring from index i to j-1)
-
 
 ------------------------------------------------------------------------------------------------------------------------------
 question 6:
@@ -60,6 +56,15 @@ Longest Substring Without Duplication
 Write a function that given a string returns the Longest Substring Without Duplication.
 (dictionary initialization)
 
+------------------------------------------------------------------------------------------------------------------------------
+question 7:
+Underscorify substring
+
+Write a function that takes in two strings: a main string and a potential substring of a main string. The function should return a version of the main string with every instance of the substring in it wrapped between underscores. If two instance of the substring in the main string overlap each other or sit side by side, the underscores relevent to these two substrings should only appear on the far left of the substring and far right of the substring. If the main string does not contain the other string at all, return the main string intact.
+
+sample input: "testthis is a testtest to see if testestest it works", "test"
+sample output:"_test_this is a _testtest_ to see if _testestest_ it works"
+(googled splitting a substring and not operator)
 
 ------------------------------------------------------------------------------------------------------------------------------
 
