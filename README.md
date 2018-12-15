@@ -67,4 +67,12 @@ sample output:"_test_this is a _testtest_ to see if _testestest_ it works"
 (googled splitting a substring and not operator)
 
 ------------------------------------------------------------------------------------------------------------------------------
+question 8:
+pattern Matcher
 
+you are given two non-empty strings. The first one is a pattern consisting of only "x"s and/or "y"s; The other is a normal string of alpganumeric characters. Write a function that checks whether or not the normal string matches the pattern. A string SO is said to match a pattern if replacing all "x"s in the pattern with some string S1 and replacing all "y"s in the pattern with some string S2 yeilds the same string SO. If the input string does not match the input pattern,return an empty array; otherwise, return an array holding the representations of "x"s or "y"s, the respective letter should be represented by an empty string in the final array that you return. Assume that there will never be more than one pair of string S1 and S2 that appropriately represents "x" and "y" in the input string.
+
+Sample input:"xxyxxy","gogopowerrangersgogopowerrangers"
+Sample output:["go","powerrangers"]
+
+------------------------------------------------------------------------------------------------------------------------------
