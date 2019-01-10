@@ -10,3 +10,4 @@ a[ch]=1 -> add/update elements to a dictionary
 if(ch in a) -> returns true if element is in dictionary and viceversa
 string[3:],string[3:]-> returns the first three and last three values of a string
 not -> negation of a boolean(not this "!")
+string[::-1] -> returns the palindrome of the string
