@@ -76,3 +76,33 @@ Sample input:"xxyxxy","gogopowerrangersgogopowerrangers"
 Sample output:["go","powerrangers"]
 
 ------------------------------------------------------------------------------------------------------------------------------
+question 9:
+
+number of steps
+Daily Coding Problem: Problem #12 (AMAZON)
+
+There exists a staircase with N steps, and you can climb up either 1 or 2 steps at a time. Given N, write a function that returns the number of unique ways you can climb the staircase. The order of the steps matters.
+
+For example, if N is 4, then there are 5 unique ways:
+
+1, 1, 1, 1
+2, 1, 1
+1, 2, 1
+1, 1, 2
+2, 2
+What if, instead of being able to climb 1 or 2 steps at a time, you could climb any number from a set of positive integers X? For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
+
+------------------------------------------------------------------------------------------------------------------------------
+question 10:
+
+make min recurrsive
+Daily Coding Problem: Problem #34 (Quora)
+
+Given a string, find the palindrome that can be made by inserting the fewest number of characters as possible anywhere in the word. If there is more than one palindrome of minimum length that can be made, return the lexicographically earliest one (the first one alphabetically).
+
+For example, given the string "race", you should return "ecarace", since we can add three letters to it (which is the smallest amount to make a palindrome). There are seven other palindromes that can be made from "race" by adding three letters, but "ecarace" comes first alphabetically.
+
+As another example, given the string "google", you should return "elgoogle".
+
+------------------------------------------------------------------------------------------------------------------------------
+
