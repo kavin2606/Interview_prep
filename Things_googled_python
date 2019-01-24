@@ -12,3 +12,5 @@ string[3:],string[3:]-> returns the first three and last three values of a strin
 not -> negation of a boolean(not this "!")
 string[::-1] -> returns the palindrome of the string
 splitting a line into a list -> "".join((char if char.isalpha() else " ") for char in test).split()
+list.pop(0) -> pops the first element in a list in python.
+list + [(x2,y2)] -> returns a list joined to another list with a pair value.
